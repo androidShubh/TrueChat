@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="50dp"
+    >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Option For Uploading Image"
+        android:textSize="16sp"
+        android:textColor="@color/primary"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/fromGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="40dp"
+        android:drawableLeft="@drawable/baseline_image_24"
+        android:text="   From Gallery"/>
+    <Button
+        android:id="@+id/fromCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fromGallery"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="40dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/baseline_camera_alt_24"
+        android:text="   From Camera"/>
+
+</RelativeLayout>

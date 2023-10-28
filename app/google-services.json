@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203774654419",
+    "project_id": "truechat-9d6dc",
+    "storage_bucket": "truechat-9d6dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203774654419:android:7937f845ba1c747edca126",
+        "android_client_info": {
+          "package_name": "com.example.truechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1NCzrPSlgsAm8hdizRjO2rc2rKjzGOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
